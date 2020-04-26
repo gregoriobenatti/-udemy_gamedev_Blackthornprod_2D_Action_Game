@@ -2,140 +2,678 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7946fab-5511-4de3-9274-e98964da0dab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TopoDownShooot/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TopoDownShooot/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TopoDownShooot/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TopoDownShooot/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TopoDownShooot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TopoDownShooot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/EnemySummonerMinion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/EnemySummonerMinion.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyMelee.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyMelee.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyRanged.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyRanged.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyRanged_bkp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyRanged_bkp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemySummoner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemySummoner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemySummonerMinion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemySummonerMinion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/projectile1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/projectile1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/weapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/weapon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/About.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/About.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lose.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lose.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Win.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Win.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Menu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Menu.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/boss.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/heartUI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/heartUI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/loseScene.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/loseScene.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/victoryScene.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/victoryScene.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/weapons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/weapons.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/AnnotationManager" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AnnotationManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/AssetImportState" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AssetImportState" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Android/builds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Android/builds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Android/builds/unity-ads.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Android/builds/unity-ads.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Editor/landscape.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Editor/landscape.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Editor/portrait.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/Editor/portrait.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/License.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/License.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/License.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/License.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.ads@2.0.8/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.2.3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.2.3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/DEPENDENCIES.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/DEPENDENCIES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/DEPENDENCIES.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/DEPENDENCIES.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryCommon.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryCommon.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryCommon.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryCommon.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryDark.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryDark.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryDark.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryDark.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryLight.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryLight.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryLight.uss.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Resources/Styles/CollabHistoryLight.uss.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Unity.CollabProxy.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Unity.CollabProxy.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Unity.CollabProxy.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Unity.CollabProxy.Editor.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/LICENSE.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/HistoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/HistoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/HistoryTests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/HistoryTests.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.15/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.package-manager-ui@2.0.8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.package-manager-ui@2.0.8/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Documentation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Documentation.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Documentation/IAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Documentation/IAP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Documentation/IAP.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Documentation/IAP.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/License.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/License.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/License.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/License.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.3/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/DropdownOptionListDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/DropdownOptionListDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/DropdownOptionListDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/DropdownOptionListDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphInfoDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphInfoDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphInfoDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphInfoDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphMetricsPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphMetricsPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphMetricsPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphMetricsPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphRectPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphRectPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphRectPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/GlyphRectPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseEditorPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseEditorPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseEditorPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseEditorPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseShaderGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseShaderGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseShaderGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BaseShaderGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BitmapShaderGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BitmapShaderGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BitmapShaderGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_BitmapShaderGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_CharacterPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_CharacterPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_CharacterPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_CharacterPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientAssetMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientAssetMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientAssetMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientAssetMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ColorGradientEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_DropdownEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_DropdownEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_DropdownEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_DropdownEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorCoroutine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorCoroutine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorCoroutine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorCoroutine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorUtility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorUtility.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_EditorUtility.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAssetEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAssetEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAssetEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAssetEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAsset_CreationMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAsset_CreationMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAsset_CreationMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_FontAsset_CreationMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_GlyphPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_InputFieldEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_InputFieldEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_InputFieldEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_InputFieldEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_MeshRendererEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_MeshRendererEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_MeshRendererEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_MeshRendererEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PackageUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PackageUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PackageUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PackageUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PostBuildProcessHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PostBuildProcessHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PostBuildProcessHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_PostBuildProcessHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ProjectTextSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ProjectTextSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ProjectTextSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ProjectTextSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ResourcesLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ResourcesLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ResourcesLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_ResourcesLoader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SDFShaderGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SDFShaderGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SDFShaderGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SDFShaderGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SerializedPropertyHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SerializedPropertyHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SerializedPropertyHolder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SerializedPropertyHolder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SettingsEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SettingsEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SettingsEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SettingsEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetImporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetImporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetImporter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetImporter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteAssetMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteCharacterPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteCharacterPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteCharacterPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteCharacterPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteGlyphPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteGlyphPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteGlyphPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SpriteGlyphPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleAssetMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleAssetMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleAssetMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleAssetMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleSheetEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleSheetEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleSheetEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_StyleSheetEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMeshUI_Editor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMeshUI_Editor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMeshUI_Editor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMeshUI_Editor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMesh_Editor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMesh_Editor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMesh_Editor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_SubMesh_Editor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_TextAlignmentDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_TextAlignmentDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_TextAlignmentDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_TextAlignmentDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UIStyleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UIStyleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UIStyleManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UIStyleManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UiEditorPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UiEditorPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UiEditorPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMP_UiEditorPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_ContextMenus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_ContextMenus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_ContextMenus.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_ContextMenus.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_CreateObjectMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_CreateObjectMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_CreateObjectMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_CreateObjectMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_EditorShaderUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_EditorShaderUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_EditorShaderUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_EditorShaderUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontPlugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontPlugin.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_FontPlugin.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_SortingLayerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_SortingLayerHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_SortingLayerHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_SortingLayerHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TextContainerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TextContainerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TextContainerEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TextContainerEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TexturePostProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TexturePostProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TexturePostProcessor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/TMPro_TexturePostProcessor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/AssemblyInfo.cs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/AssemblyInfo.cs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/AssemblyInfo.cs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/AssemblyInfo.cs.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/FastAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/FastAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/FastAction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/FastAction.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/MaterialReferenceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/MaterialReferenceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/MaterialReferenceManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/MaterialReferenceManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Asset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Asset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Asset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Asset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Character.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Character.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CharacterInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CharacterInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CharacterInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CharacterInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ColorGradient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ColorGradient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ColorGradient.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ColorGradient.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CoroutineTween.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CoroutineTween.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CoroutineTween.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_CoroutineTween.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_DefaultControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_DefaultControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_DefaultControls.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_DefaultControls.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Dropdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Dropdown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Dropdown.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Dropdown.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_EditorResourceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_EditorResourceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_EditorResourceManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_EditorResourceManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAsset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAsset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAsset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetCommon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetCommon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetCommon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetCommon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontAssetUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeatureTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeatureTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeatureTable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeatureTable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeaturesCommon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeaturesCommon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeaturesCommon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_FontFeaturesCommon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputField.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputField.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputValidator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_InputValidator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_LineInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_LineInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_LineInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_LineInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ListPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ListPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ListPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ListPool.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MaterialManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MaterialManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MaterialManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MaterialManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MeshInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MeshInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MeshInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_MeshInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ObjectPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ObjectPool.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_PackageResourceImporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_PackageResourceImporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_PackageResourceImporter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_PackageResourceImporter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagStack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagStack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagStack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagsCommon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagsCommon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagsCommon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_RichTextTagsCommon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ScrollbarEventHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SelectionCaret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SelectionCaret.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SelectionCaret.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SelectionCaret.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Settings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Settings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ShaderUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ShaderUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ShaderUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_ShaderUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Sprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Sprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Sprite.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Sprite.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAnimator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAsset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAsset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAsset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteCharacter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteCharacter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteGlyph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteGlyph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteGlyph.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SpriteGlyph.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Style.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Style.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Style.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Style.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_StyleSheet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_StyleSheet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_StyleSheet.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_StyleSheet.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMesh.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMesh.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMesh.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMesh.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMeshUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMeshUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMeshUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_SubMeshUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Text.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Text.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_Text.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement_Legacy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement_Legacy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement_Legacy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextElement_Legacy.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextParsingUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextParsingUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextParsingUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextParsingUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_TextUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateRegistery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateRegistery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateRegistery.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMP_UpdateRegistery.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_EventManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_EventManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_ExtensionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_ExtensionMethods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_ExtensionMethods.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_ExtensionMethods.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_MeshUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_MeshUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_MeshUtilities.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_MeshUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_Private.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_Private.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_Private.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_Private.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_UGUI_Private.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_UGUI_Private.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_UGUI_Private.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TMPro_UGUI_Private.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextContainer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshPro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshPro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshPro.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshPro.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshProUGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshProUGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshProUGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/TextMeshProUGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/Unity.TextMeshPro.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/Unity.TextMeshPro.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/Unity.TextMeshPro.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.4.1/Scripts/Runtime/Unity.TextMeshPro.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SpriteAtlasDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SpriteAtlasDatabase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/5d0c38-66c5aabd1aa324ebab.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/5d0c38-66c5aabd1aa324ebab.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/5d0c38-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/5d0c38-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/21105d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/21105d-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-00531d0e36fb44f92892366986621a36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-006e36bb06dba4bce88db624767fbdba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-02158ce0ff8c348b486d57875c5434ba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-03384aed641c147c096a3fc263643355" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-05fbf6ae2da5f4392b4932e3fae31952" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0b924b175ad9d4e34bb4ecd0e09cca7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0d8bc28064de74b0d95e3dd912b4c01c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0d96b4efeb11345fb97361cf7e687e4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-15cd7c3f3fa604a42898746cdfcb0215" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1de2bff6da14d4749b6c2866cd3ad370" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-217e6b4a4e4454d33b7458e8c3364e9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-324b5affb90034734b6bb3d1f73f92c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-351224595cb674eebb5ab6f962207179" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3626ef9fad24a449abec794c564fcb81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3a0e5dfb0af064ca29fd881579a96782" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3a922bf4ccf7a46879dac8596e25b3f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3d74e87c896ad42c7baef9bc4f0835c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3df290e700de7440fa7d25066aa6bf0e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3f9dcf5716e30463a9e0afc58bcffce2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-42627631777874341b8a4605b47b446a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-43a25497cd19d4dc686e9d2df6556255" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-441b6bc06292743aeb6ba8b4f0f1d345" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-45da612d4bbf84e0c8c27992d340f057" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-490f7f606b5c74f79939c9d1544f953f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-57b619783143447bd9aa01cb9bd4f2e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5a1b77748b2de4111b892f978a64d4ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5cb5c6822f8a4424eb64cc901844d1aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-60ba2027ee7d3427e9e375a36fde91b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-621081d418f8d40ef9d917d467d691b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6339fc187df7148f290dc6e4d69522b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-65d28150ece474227a5fe525a8214c37" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6905f10d8aa2e4ac595bcbdf0bd1789e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6f0fc5a31f9864f758922bcc958fe7c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-734fb5e42d1d84939b76052889cb1695" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7370aa05cbc124c0a8b898b189125e3b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-76b191a5301e5450c841ac2ea48e9f30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-77566ecfb81b8403e8ab4197b7350ffd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7a62c5c4e72e7487c85a6a5528f061e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7c4e9836e4ae547768c1da698af5a739" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-81593c3963627485e92d6926533a7ed6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-831018098689b46b68d95083cf4f34d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-86779275aa04e4418a62b11f7bd2497c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-89113259a5a2341a5a1962e095f400ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8de8863bb4d734362adfb98d8c88d2f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-94154c6ed11914417b43300c745d6d74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-96b0b17c463de4787a05d7c8a6b7a463" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-98280f7d4e8ec4e1085eecae45077bde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9b98ce690813447cf8c82e41cf02167d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9ef7d9de0441b4d22a26162e3d51dc91" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a0cda675dd9cf4f6990e6fcbd56d5b84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a50f0a6676a5f41e6ad7f1864e86b4e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a54ec1a95700649bdb6a12261397518b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-abc0592770e584a54ac8ae11032dbd90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ac8c66489c4c44ee097003cca92f20c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b0da978ea4ca041ab823a8d5eff0dda6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b11e31c51e1394a859848635dbd94920" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b53631c5ee8594cf19423440c1b323d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bb1ad4b4e4c954d4ba3c0c37cbfc4f5b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bc7a7bed668cf4852a83ca206134070a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c1bbff48c2be04bf692aa5224f2c799a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ca74a18c0e3274725b33972b9b30e591" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cdee5650386f54b55912a2850e91c516" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d42e2b3d93bb04b20bced1abccb4f5c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d9c2e1de937394437b8a5e44753b4966" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-db1d1c821da7e4028b27bc59202be589" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e25e0e49d57434f2dbcf03dd1f33a5a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e625988ea0d474535ba0d567e1e8aa26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e9a887fb5cae94fdeb565cc0a6bc2870" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f3557239669fb44fb9fac9bb2fdedcc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f87ec2c21f2464de8bad13fc93d44e39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fb706b88a028c4700a24be5603f17d36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fd665b0e2f9cc47bda78a918616c49d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-fdb10ec86f6694cef83ea403f56fbca4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000007000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000007000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000007100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000007100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c100000000000000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/03/03a29bb14dce649f385934e879254750" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/03/03a29bb14dce649f385934e879254750" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/03/03a29bb14dce649f385934e879254750.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/03/03a29bb14dce649f385934e879254750.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/03/03a29bb14dce649f385934e879254750.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/03/03a29bb14dce649f385934e879254750.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/08/085d7e31d9ee84070bfd3b7e85d26c7d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/08/085d7e31d9ee84070bfd3b7e85d26c7d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0b/0b6851701479a40f4bf2be9aee1f89cc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0b/0b6851701479a40f4bf2be9aee1f89cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0b/0bc8810855cc14b73aca87d75cdbb553" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0b/0bc8810855cc14b73aca87d75cdbb553" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0d/0d6cc4cc07adc4395ae0c2ce887de6d0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0d/0d6cc4cc07adc4395ae0c2ce887de6d0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/10/10bf81265ad87424d946598c575f45a0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/10/10bf81265ad87424d946598c575f45a0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/11/111f8f37130454cf3977c3ad2bf77aaa" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/11/111f8f37130454cf3977c3ad2bf77aaa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/12/12508f3429f4844648251ad905d17287" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/12/12508f3429f4844648251ad905d17287" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/13/1369382d2c5e64dc5b2ec0b6b0a94531" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/13/1369382d2c5e64dc5b2ec0b6b0a94531" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/14642455f86874235b5d02bd79121dd9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/14/14642455f86874235b5d02bd79121dd9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/14642455f86874235b5d02bd79121dd9.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/14/14642455f86874235b5d02bd79121dd9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/14642455f86874235b5d02bd79121dd9.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/14/14642455f86874235b5d02bd79121dd9.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1a/1a8f27a7d36b84cb89f544dcff6e61b4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1a/1a8f27a7d36b84cb89f544dcff6e61b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1b/1b32bcce201b4494ea8848326290c5d5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1b/1b32bcce201b4494ea8848326290c5d5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1d/1d52b803281db485eb195b4ef3f5ef1c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1d/1d52b803281db485eb195b4ef3f5ef1c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/1d/1d80865db66ef4f5a82301589824b0e0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1d/1d80865db66ef4f5a82301589824b0e0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/28/28542eca5f1b4c64813acfbd512524b6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/28/28542eca5f1b4c64813acfbd512524b6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2c/2ce4bbcc4722440890a03312706037fe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2c/2ce4bbcc4722440890a03312706037fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2d4d46c70fdd242668a56e99799e8540" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2d4d46c70fdd242668a56e99799e8540" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2d510904ff1e34931befb2e53ef2b320" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2d510904ff1e34931befb2e53ef2b320" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2d510904ff1e34931befb2e53ef2b320.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2d510904ff1e34931befb2e53ef2b320.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2d510904ff1e34931befb2e53ef2b320.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2d510904ff1e34931befb2e53ef2b320.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/30/30aa3194afbe44a72aa7ec76cb2bab8a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/30/30aa3194afbe44a72aa7ec76cb2bab8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/31/317c60ff9af8f4c97ab8d7d4cdbdaee0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/31/317c60ff9af8f4c97ab8d7d4cdbdaee0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/31/31ede2e9f04ec4344a7927b97623aa70" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/31/31ede2e9f04ec4344a7927b97623aa70" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/34/34cdbcdf07b1547aea2130520c7ad914" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/34/34cdbcdf07b1547aea2130520c7ad914" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/38/38b6438c929fc4beaac7a73dfe2c7b8a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/38/38b6438c929fc4beaac7a73dfe2c7b8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3b/3b07d432cba2a4c4f8a2fdea984620b8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3b/3b07d432cba2a4c4f8a2fdea984620b8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3b/3b256eae3fbf542969be3d5f38ffff49" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3b/3b256eae3fbf542969be3d5f38ffff49" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3c/3cebe1a96232b44388b30b2f72dde434" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3d/3d369d1a3437f432c871a737e262efda" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3d/3d369d1a3437f432c871a737e262efda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3e/3e8be4db927e34e1aa8f7202e27fb0e3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3e/3e8be4db927e34e1aa8f7202e27fb0e3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3e/3ec7f64592af04184ae1ebcbbd22210d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3e/3ec7f64592af04184ae1ebcbbd22210d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3e/3eeb484a753f442bea7ca689cb70ba03" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3e/3eeb484a753f442bea7ca689cb70ba03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3f/3f6c1bf47bd6a40d78fec544932f1e37" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3f/3f6c1bf47bd6a40d78fec544932f1e37" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/40/405b9b51bb344a128608d968297df79c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/40/405b9b51bb344a128608d968297df79c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/45/4506ac79f5b274cb1b249ed7f4abfb9a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/45/4506ac79f5b274cb1b249ed7f4abfb9a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/46/460592672d9f54468b1b8fff2894d383" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/46/460592672d9f54468b1b8fff2894d383" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/46/46098a81a64a45c5b756320e10a22f13" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/46/46098a81a64a45c5b756320e10a22f13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/48/48986928cc2a449dbaecdd1654bc9bf6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/48/48986928cc2a449dbaecdd1654bc9bf6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4f/4f234578336894dc081edf696f2ff5f2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4f/4f234578336894dc081edf696f2ff5f2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4f/4f5362359d4548b44a34a45f19efb4bf" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4f/4f5362359d4548b44a34a45f19efb4bf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4f/4f70d472bebe94d60bf5e496cc5f054b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4f/4f70d472bebe94d60bf5e496cc5f054b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/51/512dfc934e5ba4a8bbed82c7a031e0b4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/51/512dfc934e5ba4a8bbed82c7a031e0b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/51/512dfc934e5ba4a8bbed82c7a031e0b4.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/51/512dfc934e5ba4a8bbed82c7a031e0b4.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/55/55338c97023494ed28374f51857a17fe" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/55/55338c97023494ed28374f51857a17fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/55/5571d718fb735415096135a414394be7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/55/5571d718fb735415096135a414394be7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/56/5606b16c873134cbdbfe074046235449" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/56/5606b16c873134cbdbfe074046235449" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/58/58f92cf46baf74cfbad6a59b973a3bcc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/58/58f92cf46baf74cfbad6a59b973a3bcc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/59/599a5fd92bab81a4ab02e52d0b1b1c60" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/59/599a5fd92bab81a4ab02e52d0b1b1c60" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/5b/5bb8da4b40ad8413681cdd852a9a5203" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5b/5bb8da4b40ad8413681cdd852a9a5203" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/5d/5d3341a920d354651b0a3185dbce8358" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5d/5d3341a920d354651b0a3185dbce8358" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/5e/5e7c9ab97e5884e4eaa5967e9024f39d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5e/5e7c9ab97e5884e4eaa5967e9024f39d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/5f/5fc988a1d5b04aee9a5222502b201a45" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5f/5fc988a1d5b04aee9a5222502b201a45" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/60/6096c7382d0f34d568409337752d944a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/60/6096c7382d0f34d568409337752d944a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/65/65d8c123a1fa84d85a4a8604941b0773" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/65/65d8c123a1fa84d85a4a8604941b0773" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/65/65d8c123a1fa84d85a4a8604941b0773.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/65/65d8c123a1fa84d85a4a8604941b0773.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/66/6695938fff8c448658fbc92aeb99c270" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/66/6695938fff8c448658fbc92aeb99c270" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/66/669914a3b79af4a2baf341afd44cf27d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/66/669914a3b79af4a2baf341afd44cf27d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/66/669914a3b79af4a2baf341afd44cf27d.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/66/669914a3b79af4a2baf341afd44cf27d.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/66/66c5aabd1aa324ebab04279131a6dfc3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/66/66c5aabd1aa324ebab04279131a6dfc3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/66/66c5aabd1aa324ebab04279131a6dfc3.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/66/66c5aabd1aa324ebab04279131a6dfc3.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/68/688ad3771876e478eac44fbde90e4cb0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/68/688ad3771876e478eac44fbde90e4cb0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/68/688ad3771876e478eac44fbde90e4cb0.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/68/688ad3771876e478eac44fbde90e4cb0.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/69/69b7e0ef8a64642d2b70b0a5988c28da" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/69/69b7e0ef8a64642d2b70b0a5988c28da" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/69/69b7e0ef8a64642d2b70b0a5988c28da.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/69/69b7e0ef8a64642d2b70b0a5988c28da.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/69/69b7e0ef8a64642d2b70b0a5988c28da.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/69/69b7e0ef8a64642d2b70b0a5988c28da.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6b/6b1ae1e78552c459d9ce27048ff51c7f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6b/6b1ae1e78552c459d9ce27048ff51c7f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6e/6e7c8cfeedae74eb3a562055e069e441" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/70/703a9c473e08746ee98b68f30cf401a6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/70/703a9c473e08746ee98b68f30cf401a6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/70/703a9c473e08746ee98b68f30cf401a6.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/70/703a9c473e08746ee98b68f30cf401a6.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/70/703a9c473e08746ee98b68f30cf401a6.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/70/703a9c473e08746ee98b68f30cf401a6.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/71/711e6bb4ac2044bb5b260e8dff00fc10" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/71/711e6bb4ac2044bb5b260e8dff00fc10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/71/71e1652fdff664f9bb0ae9e0327b0d90" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/71/71e1652fdff664f9bb0ae9e0327b0d90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/74/74d4384b9a7da4eb2bc3c41c690751ad" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/74/74d4384b9a7da4eb2bc3c41c690751ad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/74/74d4384b9a7da4eb2bc3c41c690751ad.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/74/74d4384b9a7da4eb2bc3c41c690751ad.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/75/755a7e9e709ba4cdf8c7dd79d658603d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/75/755a7e9e709ba4cdf8c7dd79d658603d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/76/762c25361b475423e8e4a0460ef47ea0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/76/762c25361b475423e8e4a0460ef47ea0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/76/7668179ede524d6396c8b7d84461ea29" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/76/7668179ede524d6396c8b7d84461ea29" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/77/775420105f03e4b9e857445d967f5fb7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/775420105f03e4b9e857445d967f5fb7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/77/775420105f03e4b9e857445d967f5fb7.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/775420105f03e4b9e857445d967f5fb7.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/77/775420105f03e4b9e857445d967f5fb7.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/775420105f03e4b9e857445d967f5fb7.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/77/77abd6a93d1364c69b1a96caf5ea2473" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/77abd6a93d1364c69b1a96caf5ea2473" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/77/77abd6a93d1364c69b1a96caf5ea2473.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/77/77abd6a93d1364c69b1a96caf5ea2473.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/7a/7a573b834e2608c4f982daf527bdb47a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7a/7a573b834e2608c4f982daf527bdb47a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/7c/7c3a5d6e39b874f468b2691537168513" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7c/7c3a5d6e39b874f468b2691537168513" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/7f/7fd5e77e7e7ea4eea8198138cd9cc814" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7f/7fd5e77e7e7ea4eea8198138cd9cc814" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/82/82e46d0aa9d914437a210e2d8385b095" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/82/82e46d0aa9d914437a210e2d8385b095" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/84/844f815391db42d49455cbf1a7bfc434" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/84/844f815391db42d49455cbf1a7bfc434" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/86/86ce52a6e2e9c4719ae13f9c3cbc12ed" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/86/86ce52a6e2e9c4719ae13f9c3cbc12ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/86/86ce52a6e2e9c4719ae13f9c3cbc12ed.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/86/86ce52a6e2e9c4719ae13f9c3cbc12ed.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8a/8a751a130561f4ed3ba1dd8a0036fa05" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8a/8a751a130561f4ed3ba1dd8a0036fa05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8a/8a751a130561f4ed3ba1dd8a0036fa05.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8a/8a751a130561f4ed3ba1dd8a0036fa05.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8a/8aafd27f78c12564281bac0d0067df8d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8a/8aafd27f78c12564281bac0d0067df8d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8a/8affb1ec3926f4db3aad8e9a09835c22" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8a/8affb1ec3926f4db3aad8e9a09835c22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8b/8b06e993a24404980b9b73257feeb18c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8b/8b06e993a24404980b9b73257feeb18c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8b/8b06e993a24404980b9b73257feeb18c.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8b/8b06e993a24404980b9b73257feeb18c.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8b/8b06e993a24404980b9b73257feeb18c.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/8b/8b06e993a24404980b9b73257feeb18c.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/90/904022b8143f64d688f4871d20441944" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/90/904022b8143f64d688f4871d20441944" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/90/904022b8143f64d688f4871d20441944.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/90/904022b8143f64d688f4871d20441944.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/93/931f3395378214a6c94333853bd0659b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/93/931f3395378214a6c94333853bd0659b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/94/94f8d86fffe644c76a2f3e6636f8aa4a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/94/94f8d86fffe644c76a2f3e6636f8aa4a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/96/96e1a81adb349464a97ebed166911b0e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/96/96e1a81adb349464a97ebed166911b0e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/99/99ddb49592ff84811804420a1910cb89" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/99/99ddb49592ff84811804420a1910cb89" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9c/9c2753cccda544423b8a4a51c57efea9" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9c/9c2753cccda544423b8a4a51c57efea9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a1/a1556996a441e4baaaf74aff200b33d2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a1/a1556996a441e4baaaf74aff200b33d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a3/a37e18887fa954edf92bc36bc353b879" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a3/a37e18887fa954edf92bc36bc353b879" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a6/a68fe87e5b505480dbc04c7101f9560a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a6/a68fe87e5b505480dbc04c7101f9560a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a6/a68fe87e5b505480dbc04c7101f9560a.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a6/a68fe87e5b505480dbc04c7101f9560a.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a6/a6ab6fd2b91214e8a9c8ec2224a528de" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a6/a6ab6fd2b91214e8a9c8ec2224a528de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a7/a7ec9e7ad8b847b7ae4510af83c5d868" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a7/a7ec9e7ad8b847b7ae4510af83c5d868" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a7/a7f117b84d9924260ae81d99b155f7a1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a7/a7f117b84d9924260ae81d99b155f7a1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a9/a937ba49c9a0749d4a4e823430d64220" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a9/a937ba49c9a0749d4a4e823430d64220" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ab/ab11907f643c84d549471951f19fe536" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ab/ab11907f643c84d549471951f19fe536" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ab/ab11907f643c84d549471951f19fe536.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ab/ab11907f643c84d549471951f19fe536.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ab/ab11907f643c84d549471951f19fe536.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ab/ab11907f643c84d549471951f19fe536.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b0/b058551e5e9694de4b9c87d626dcec9c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b0/b058551e5e9694de4b9c87d626dcec9c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b2/b211f5d6972bf4331b6d93cf7aee5e31" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b2/b211f5d6972bf4331b6d93cf7aee5e31" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b2/b2e376013b38446c8b83ee2a16759395" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b2/b2e376013b38446c8b83ee2a16759395" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b4/b4bdb6dea3f50454ab2f700029a52a65" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b4/b4bdb6dea3f50454ab2f700029a52a65" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b4/b4bdb6dea3f50454ab2f700029a52a65.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b4/b4bdb6dea3f50454ab2f700029a52a65.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b5/b532a8fd014494f66ae79728d8339feb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b5/b532a8fd014494f66ae79728d8339feb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b5/b5d6c28ed7b94775be9e2560f300247c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b5/b5d6c28ed7b94775be9e2560f300247c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b5/b5da970776034f77a070d99423d68791" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b5/b5da970776034f77a070d99423d68791" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b7/b778ca1814152476ea9788066d2b2b75" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b7/b778ca1814152476ea9788066d2b2b75" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b9/b9bae0963eef244b1a8b748274da407d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b9/b9bae0963eef244b1a8b748274da407d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ba/ba2342890e39d47df9fc396cca8d0685" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ba/ba2342890e39d47df9fc396cca8d0685" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/bd/bd6dd26c47a434cca967f96ba35fa058" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/bd/bd6dd26c47a434cca967f96ba35fa058" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c1/c13f33b28eb274cb7a9751cd94d58e19" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c1/c13f33b28eb274cb7a9751cd94d58e19" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c1/c13f33b28eb274cb7a9751cd94d58e19.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c1/c13f33b28eb274cb7a9751cd94d58e19.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c1/c16c6c0268645478a98da8a30599664a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c1/c16c6c0268645478a98da8a30599664a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c1/c18cb9388313e4287ad5895ee735c47d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c1/c18cb9388313e4287ad5895ee735c47d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c2/c2fa81554fb21472982388dc01305b5a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c2/c2fa81554fb21472982388dc01305b5a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c2/c2fa81554fb21472982388dc01305b5a.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c2/c2fa81554fb21472982388dc01305b5a.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c2/c2fa81554fb21472982388dc01305b5a.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c2/c2fa81554fb21472982388dc01305b5a.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c3/c34769d23751c4220bd6be5a05ad0cd3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c3/c34769d23751c4220bd6be5a05ad0cd3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c5/c5b0ee75e437f415a871201bebd4377e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c5/c5b0ee75e437f415a871201bebd4377e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c5/c5b0ee75e437f415a871201bebd4377e.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c5/c5b0ee75e437f415a871201bebd4377e.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c5/c5b0ee75e437f415a871201bebd4377e.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c5/c5b0ee75e437f415a871201bebd4377e.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ce/ce3f99025521342ed94a8a8f8181aa48" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ce/ce3f99025521342ed94a8a8f8181aa48" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d1/d1a0a27327b54c3bac52a08929c33f81" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d1/d1a0a27327b54c3bac52a08929c33f81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d3/d31e5d760880a4e52a3a75322481d0d2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d3/d31e5d760880a4e52a3a75322481d0d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d4/d437fe60bb34f45728664a5d930c1635" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d4/d437fe60bb34f45728664a5d930c1635" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d6/d6966d70e808f4ee4b180a0d5f987e06" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d6/d6966d70e808f4ee4b180a0d5f987e06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d6/d6966d70e808f4ee4b180a0d5f987e06.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d6/d6966d70e808f4ee4b180a0d5f987e06.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d929147d9f78c487397abb40f2c257b0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d929147d9f78c487397abb40f2c257b0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d991865d11f1f4a93b514e279d70ac6d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d991865d11f1f4a93b514e279d70ac6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d991865d11f1f4a93b514e279d70ac6d.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d991865d11f1f4a93b514e279d70ac6d.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d9d68d69161274c968d913d8ad8db5c0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d9d68d69161274c968d913d8ad8db5c0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d9d68d69161274c968d913d8ad8db5c0.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d9d68d69161274c968d913d8ad8db5c0.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d9d68d69161274c968d913d8ad8db5c0.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d9d68d69161274c968d913d8ad8db5c0.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dd/dd5a25201034149a09eeb9fee02b1d57" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dd/dd5a25201034149a09eeb9fee02b1d57" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dd/dd5a25201034149a09eeb9fee02b1d57.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dd/dd5a25201034149a09eeb9fee02b1d57.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dd/dd5a25201034149a09eeb9fee02b1d57.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dd/dd5a25201034149a09eeb9fee02b1d57.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/dd/dded0235e86d246849e853a0e72b689a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/dd/dded0235e86d246849e853a0e72b689a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e1/e1007cd261c84053beb0c3537782908d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e1/e1007cd261c84053beb0c3537782908d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e3/e34af0d18e555464a9a33c6f36448650" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e3/e34af0d18e555464a9a33c6f36448650" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e5/e58539228e92a404ebda26e9fc6aef34" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e5/e58539228e92a404ebda26e9fc6aef34" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e7/e7d19da440de5473e864d03ae93df839" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e7/e7d19da440de5473e864d03ae93df839" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e7/e7d19da440de5473e864d03ae93df839.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e7/e7d19da440de5473e864d03ae93df839.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e7/e7d19da440de5473e864d03ae93df839.resource" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e7/e7d19da440de5473e864d03ae93df839.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e9/e93ec7eb6de342aabd156833e253f838" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e9/e93ec7eb6de342aabd156833e253f838" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ed/eddd5dc1e53124bd4acda3083a68b221" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ed/eddd5dc1e53124bd4acda3083a68b221.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ee/eeed6954b3c264ca0b28a92aa6289bf0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f0/f02201f17e32b46ca8fd8aa9fbb0727d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f0/f02201f17e32b46ca8fd8aa9fbb0727d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f1/f150c5c15790f4173badd03ac77b6f9b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f1/f150c5c15790f4173badd03ac77b6f9b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f2/f28fcced5af094cf78eb4e1109a71981" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f2/f28fcced5af094cf78eb4e1109a71981" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f4/f48026092d2a743f49f43834f33cbf57" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f4/f48026092d2a743f49f43834f33cbf57" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f4/f48026092d2a743f49f43834f33cbf57.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f4/f48026092d2a743f49f43834f33cbf57.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5600e6ae5a1464da659eca36bef9d64" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5600e6ae5a1464da659eca36bef9d64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5cca190bd00c486a90c47ec1977bd79" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5cca190bd00c486a90c47ec1977bd79" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5cca190bd00c486a90c47ec1977bd79.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5cca190bd00c486a90c47ec1977bd79.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5d7c0cb9c44b411fa99f9f1e077bb64" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5d7c0cb9c44b411fa99f9f1e077bb64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5dea1a1ff2964fbaa5d2bf055ee3260" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5dea1a1ff2964fbaa5d2bf055ee3260" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f6/f69a2025d2d2641b89bda84f18ecc38d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f6/f69a2025d2d2641b89bda84f18ecc38d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f9/f9687df637efd44bb92f3ebf8efa7d28" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f9/f9687df637efd44bb92f3ebf8efa7d28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fa/fa6fa475c4de3497cbc5667a24424c71" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fa/fa6fa475c4de3497cbc5667a24424c71" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fa/fa6fa475c4de3497cbc5667a24424c71.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fa/fa6fa475c4de3497cbc5667a24424c71.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fd/fd0a39b4d296d4d509b4f1dbd08d0630" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fd/fd0a39b4d296d4d509b4f1dbd08d0630" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyRanged.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Udemy-Course-Files-master/UDEMYGameTutorial/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Udemy-Course-Files-master/UDEMYGameTutorial/Assets/Scripts/RangedEnemy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySummoner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMelee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PatrolBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMelee.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyRanged.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChaseBehaviou.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossSound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySummoner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Picup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../Udemy-Course-Files-master/UDEMYGameTutorial/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMelee.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySummoner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRanged.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PatrolBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChaseBehaviou.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Picup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RandomSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BossSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boss.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
       </list>
     </option>
   </component>
@@ -146,74 +684,33 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
-  </component>
+  <component name="ProjectId" id="1b5FGuSzvRPJxSFMncJGuYLWi4h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -227,51 +724,34 @@
       <workItem from="1587755598173" duration="131000" />
       <workItem from="1587855508987" duration="5524000" />
       <workItem from="1587867205055" duration="4380000" />
+      <workItem from="1587913966208" duration="101000" />
+      <workItem from="1587914222432" duration="17009000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10035000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Unity" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
-    </layout>
-  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587932866650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1587932866650" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587916374959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1587916374959" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -281,109 +761,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Udemy-Course-Files-master/UDEMYGameTutorial/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMelee.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" selection-start-line="22" selection-start-column="16" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaveSpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemySummoner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Udemy-Course-Files-master/UDEMYGameTutorial/Assets/Scripts/RangedEnemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" lean-forward="true" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyRanged.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

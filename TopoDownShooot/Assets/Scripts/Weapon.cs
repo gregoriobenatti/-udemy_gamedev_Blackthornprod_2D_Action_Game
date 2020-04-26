@@ -9,7 +9,14 @@ public class Weapon : MonoBehaviour
     public float timeBetweenShots;
 
     private float shotTime;
-    
+
+    Animator camaraAnimator;
+
+    void Start()
+    {
+        camaraAnimator = Camera.main.GetComponent<Animator>();
+    }
+
     private void Update()
     {
         Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
@@ -22,6 +29,7 @@ public class Weapon : MonoBehaviour
             if (Time.time >= shotTime)
             {
                 Instantiate(projectile, shotPoint.position, transform.rotation);
+                camaraAnimator.SetTrigger("shake");
                 shotTime = Time.time + timeBetweenShots;
             }
         }

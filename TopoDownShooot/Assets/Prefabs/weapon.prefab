@@ -90,9 +90,10 @@ GameObject:
   - component: {fileID: 1421054284757044181}
   - component: {fileID: 1421054284757044182}
   - component: {fileID: 1421054284757044180}
+  - component: {fileID: 2801125219236717430}
   m_Layer: 0
   m_Name: weapon
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,3 +180,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2801125219236717430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421054284757044183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8affb1ec3926f4db3aad8e9a09835c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 3892576670261617728, guid: d6966d70e808f4ee4b180a0d5f987e06,
+    type: 3}
+  shotPoint: {fileID: 1421054283829573705}
+  timeBetweenShots: 1

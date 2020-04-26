@@ -14,9 +14,9 @@ public class WaveSpawner : MonoBehaviour {
     public Wave[] waves;
     public Transform[] spawnPoints;
     public float timeBetweenWaves;
-//    public GameObject boss;
-//    public Transform bossSpawnPoint;
-//    public GameObject healthBar;
+    public GameObject boss;
+    public Transform bossSpawnPoint;
+    public GameObject healthBar;
 
     private Wave currentWave;
     private int currentWaveIndex;
@@ -41,9 +41,8 @@ public class WaveSpawner : MonoBehaviour {
             }
             else
             {
-                print("WIN");
-//                Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
-//                healthBar.SetActive(true);
+                Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
+                healthBar.SetActive(true);
             }
 
         }
@@ -79,10 +78,6 @@ public class WaveSpawner : MonoBehaviour {
             }
 
             yield return new WaitForSeconds(currentWave.timeBetweenSpawns);
-
         }
-
-
     }
-
 }

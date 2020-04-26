@@ -11,7 +11,8 @@ public class EnemyBullet : MonoBehaviour
 
     public float speed;
     public int damage;
-
+    public GameObject effect;
+    
     private void Start()
     {
         playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -26,6 +27,7 @@ public class EnemyBullet : MonoBehaviour
         }
         else
         {
+            Instantiate(effect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

@@ -51,6 +51,8 @@ MonoBehaviour:
   lifeTime: 0.7
   explosion: {fileID: 4359242406595764181, guid: b9bae0963eef244b1a8b748274da407d,
     type: 3}
+  soundObject: {fileID: 7027375529744639771, guid: 0bf9e4f4d7f38c3448f4f6bf109d3b43,
+    type: 3}
 --- !u!212 &3892576670261617742
 SpriteRenderer:
   m_ObjectHideFlags: 0

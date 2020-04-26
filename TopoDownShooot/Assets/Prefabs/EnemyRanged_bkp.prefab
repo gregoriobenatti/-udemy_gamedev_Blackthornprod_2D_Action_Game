@@ -387,6 +387,19 @@ MonoBehaviour:
   speed: 17
   timeBetweenAttacks: 4
   damage: 0
+  pickUpChange: 30
+  pickups:
+  - {fileID: 2776204489164627032, guid: ecfd4332129b4c8479cab3b11649b63b, type: 3}
+  - {fileID: 1051167053532461360, guid: d710e1dc93b6cea4697209b0a1b5e948, type: 3}
+  - {fileID: 2965621933596489174, guid: 40ef4ca4bd5b5e841b4d564f2617db88, type: 3}
+  - {fileID: 7394832347573586463, guid: 5897245c907f2fe4598e3bf63fe3c86d, type: 3}
+  healthPickUpChange: 30
+  healthPickup: {fileID: 6677209999730509691, guid: 26926dd88b9916b468692f62716d0553,
+    type: 3}
+  deathEffect: {fileID: 3531449414859903056, guid: a5f93f6eb37d9da4d89c2b5e2399721d,
+    type: 3}
+  deathBloodEffect: {fileID: 4294001452173099284, guid: 9269586a6ecb49c43bccaa2de499a314,
+    type: 3}
   player: {fileID: 0}
   stopDistance: 25
   enemyBullet: {fileID: 2060316858113837451, guid: 65d8c123a1fa84d85a4a8604941b0773,
